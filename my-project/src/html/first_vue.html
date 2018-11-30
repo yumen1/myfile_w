@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            my first vue
+        </title>
+        <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    </head>
+    <body>
+        <dev id="vue_det">
+            <h5>url:{{url}}</h5>
+            <h5>site:{{site}}</h5>
+            <h5>{{detail()}</h5>
+        </dev>
+        <script type="text/javascript">
+            var vm=new vue(){
+                el:"#vue_det",
+                data:{
+                    site:"my first vue",
+                    url:"www.sd.test",
+                    alexa:"10000"
+                },
+                methods:{
+                    details:function(){
+                        return this.site+".It is time to start learning a new technology.";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

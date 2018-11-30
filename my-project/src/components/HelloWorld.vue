@@ -79,6 +79,14 @@
           awesome-vue
         </a>
       </li>
+      <li>
+        <a
+          href="../html/first_vue.html"
+          target="_blank"
+        >
+          awesome-vue1
+        </a>
+      </li>
     </ul>
   </div>
 </template>
